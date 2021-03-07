@@ -9,6 +9,7 @@
 	<name>jaxrs-example</name>
 	<url>http://maven.apache.org</url>
 
+
 	<repositories>
 		<repository>
 			<id>JBoss repository</id>
@@ -16,8 +17,8 @@
 		</repository>
 	</repositories>
 
-
 	<dependencies>
+
 
 
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
