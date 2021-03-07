@@ -1,20 +1,20 @@
-package com.mkyong.rest;
+package fr.istic.taa.jaxrs.rest;
 
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.core.Response;
 
-@Path("/hello")
+@Path("/message")
 public class HelloWorldService {
 
     @GET
     @Path("/{param}")
-    public Response getMsg(@PathParam("param") String msg) {
+    public Response printMessage(@PathParam("param") String msg) {
 
-        String output = "Jersey say : " + msg;
+        String result = "Restful example : " + msg;
 
-        return Response.status(200).entity(output).build();
+        return Response.status(200).entity(result).build();
 
     }
 
