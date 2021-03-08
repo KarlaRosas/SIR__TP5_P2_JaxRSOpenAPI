@@ -1,3 +1,26 @@
+####Prerequisites for Users
+
+JRE >= 1.8
+
+- java IDE (Eclispe,Intelliji Idea etc..)
+
+### This is the ReadME for the part 2 of the project 5
+
+#### How to run :
+
+To run this project you will have to launch the ResServer File. when you have the INFO: "JAX-RS based micro-service running!" the project is running.
+Now you have to open the application POSTMAN. Once you have done that you can enter the path : "localhost:8080/pet/1" you will see the content of the content of the first id of pet.
+
+Now you can open the file of the differents rest to see the @path and check it.
+
+You can try with employee by writing localhost:8080/employee/1 or 2 or 3 you will see 3 differents employee. You can then write /employee/post and you will be able to write a json file to add a employee to the list and then see it with the /get/idyouhavechosen
+The probleme with this part is that we got an error "Invalid S". We have looked on google it's writen that the response is not a valuable json response. So it does not add it to the list and we don't understand why. We have looked on the doc
+https://mkyong.com/tutorials/jax-rs-tutorials/.
+
+#### How we did the project.
+
+So we first imported the petRessource. Once we have understood how to use it and see it with postman we have import all the Kanban file of the TP 2-4 and created the respective Ressoursesfiles.
+
 ## JaxRS + openAPI
 
 1. Import this project in your IDE, 
