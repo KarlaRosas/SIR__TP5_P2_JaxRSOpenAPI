@@ -21,9 +21,9 @@ import java.util.Set;
 
 import javax.ws.rs.core.Application;
 
-import fr.istic.taa.jaxrs.rest.HelloWorldService;
-import fr.istic.taa.jaxrs.rest.PetResource;
-import fr.istic.taa.jaxrs.rest.UserRestService;
+import fr.istic.taa.jaxrs.domain.Fiche;
+import fr.istic.taa.jaxrs.domain.Utilisateur;
+import fr.istic.taa.jaxrs.rest.*;
 import io.swagger.v3.jaxrs2.integration.resources.OpenApiResource;
 
 public class TestApplication extends Application {
@@ -38,6 +38,13 @@ public class TestApplication extends Application {
         clazzes.add(HelloWorldService.class);
         clazzes.add(UserRestService.class);
         clazzes.add(OpenApiResource.class);
+        clazzes.add(DepartmentResource.class);
+        clazzes.add(EmployeeResource.class);
+        clazzes.add(FicheResource.class);
+        clazzes.add(SectionResource.class);
+        clazzes.add(TableauResource.class);
+        clazzes.add(TarsResource.class);
+        clazzes.add(UtilisateurResource.class);
         return clazzes;
     }
 
