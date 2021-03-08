@@ -8,13 +8,13 @@ JRE >= 1.8
 
 #### How to run :
 
-To run this project you will have to launch the ResServer File. when you have the INFO: "JAX-RS based micro-service running!" the project is running.
+To run this project you will have to launch the ResServer File. When you have the INFO: "JAX-RS based micro-service running!" the project is running.
 Now you have to open the application POSTMAN. Once you have done that you can enter the path : "localhost:8080/pet/1" you will see the content of the content of the first id of pet.
 
 Now you can open the file of the differents rest to see the @path and check it.
 
-You can try with employee by writing localhost:8080/employee/1 or 2 or 3 you will see 3 differents employee. You can then write /employee/post and you will be able to write a json file to add a employee to the list and then see it with the /get/idyouhavechosen
-The probleme with this part is that we got an error "Invalid S". We have looked on google it's writen that the response is not a valuable json response. So it does not add it to the list and we don't understand why. We have looked on the doc
+You can try with employee by writing localhost:8080/employee/1 or 2 or 3 you will see 3 differents employees. You can then write /employee/post and you will be able to write a json file to add an employee to the list and then see it with the /get/idyouhavechosen
+The problem with this part is that we got an error "Invalid S". We have looked on google it's writen that the response is not a valuable json response. So it does not add it to the list and we don't understand why. We have looked on the doc
 https://mkyong.com/tutorials/jax-rs-tutorials/.
 
 #### How we did the project.
@@ -37,7 +37,7 @@ Now, we would like to ensure that our API can be discovered. The OpenAPI Initiat
 
 APIs form the connecting glue between modern applications. Nearly every application uses APIs to connect with corporate data sources, third party data services or other applications. Creating an open description format for API services that is vendor neutral, portable and open is critical to accelerating the vision of a truly connected world.
 
-To do this integration first, I already add a dependencies to openAPI libraries. 
+To do this integration first, I already add a dependency to openAPI libraries. 
 
 ```xml
 			<dependency>
@@ -98,9 +98,9 @@ At the end of the index.html, your must have something like that.
         ...
 ```
 
-Next add a new resources to create a simple http server when your try to access to http://localhost:8080/api/.
+Next add a new resource to create a simple http server when your try to access to http://localhost:8080/api/.
 
-This new resources can be developped as follows
+This new resources can be developed as follows
 
 ```java
 package app.web.rest;
