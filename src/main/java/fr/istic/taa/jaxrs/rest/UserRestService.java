@@ -31,7 +31,5 @@ public class UserRestService {
 
         return Response.status(200)
                 .entity("getUserBookByISBN is called, isbn : " + isbn).build();
-
     }
-
 }
